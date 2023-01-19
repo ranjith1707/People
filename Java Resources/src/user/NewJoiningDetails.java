@@ -13,7 +13,7 @@ public class NewJoiningDetails {
 	public String getNewJoiningList() {
 		
 		String newHierList="";
-		String path="/Users/ranjith-16481/eclipse-workspace/People/WebContent/responseFiles/";
+		String path="/People/WebContent/responseFiles/newHires.txt";
 		try {
 			File file=new File(path);
 			FileReader fileReader=new FileReader(file);
