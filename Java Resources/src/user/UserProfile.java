@@ -9,7 +9,7 @@ public class UserProfile {
 	
     public String getUserProfile() {
     	
-    	String path="/Users/ranjith-16481/eclipse-workspace/People/WebContent/responseFiles/favorites.txt";
+    	String path="/People/WebContent/responseFiles/userDetails.txt";
     	String data="";
     	try {
     		File file=new File(path);	
