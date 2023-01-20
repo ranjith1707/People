@@ -19,7 +19,7 @@ public class NewHiers extends HttpServlet {
    
     public NewHiers() {
         super();
-        // TODO Auto-generated constructor stub
+       
     }
 
 	
