@@ -11,9 +11,9 @@ public class NewJoiningDetails {
   }
 	
 	public String getNewJoiningList() {
-		 String workingDir = System.getProperty("user.dir");
+		
 		String newHierList="";
-		String path=workingDir+"/WebContent/responseFiles/newHires.txt";
+		String path="./WebContent/responseFiles/newHires.txt";
 		try {
 			File file=new File(path);
 			FileReader fileReader=new FileReader(file);
