@@ -1,0 +1,86 @@
+[
+{
+"Hdayname":"Republic day",
+"date":"26 - jan",
+"day":"Thursday",
+"type":""
+},
+{
+"Hdayname":"Holi",
+"date":"8 - Mar",
+"day":"Wednesday",
+"type":"(Restricted Holiday)"
+},
+{
+"Hdayname":"Good Friday",
+"date":"7 - Apr",
+"day":"Friday",
+"type":"(Restricted Holiday)"
+},
+{
+"Hdayname":"Tamil New Year / Dr. B.R Ambedkar Birthday",
+"date":"14 - Apr",
+"day":"Friday",
+"type":""
+},
+{
+"Hdayname":"Idul Fitr / Ramzan",
+"date":"22 - Apr",
+"day":"Saturday",
+"type":""
+},
+{
+"Hdayname":"May Day",
+"date":"1 - May",
+"day":"Monday",
+"type":""
+},
+{
+"Hdayname":"Bakrid / Eid al Adha",
+"date":"29 - Jan",
+"day":"Thursday",
+"type":"(Restricted Holiday)"
+},
+{
+"Hdayname":"Independence Day",
+"date":"15 - Aug",
+"day":"Tuesday",
+"type":""
+},
+{
+"Hdayname":"Ganesh Chaturthi",
+"date":"17 - Sep",
+"day":"Sunday",
+"type":""
+},
+{
+"Hdayname":"Gandhi Jayanti",
+"date":"02 - Oct",
+"day":"Monday",
+"type":""
+},
+{
+"Hdayname":"Ayudha Pooja",
+"date":"23 - Oct",
+"day":"Monday",
+"type":""
+},
+{
+"Hdayname":"Diwali",
+"date":"12 - Nov",
+"day":"Sunday",
+"type":""
+},
+{
+"Hdayname":"Diwali",
+"date":"13 - Nov",
+"day":"Monday",
+"type":"(Restricted Holiday)"
+},
+{
+"Hdayname":"Christmas Day",
+"date":"25 - Dec",
+"day":"Monday",
+"type":""
+}
+]

@@ -1,0 +1,90 @@
+[
+{
+"linkname":"Harassment-free Workplace",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"COVID 19 - Home isolation and Care",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Freelancing",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Team changes",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Zoho Intranet Page",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Support & Pitstop Extn",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Conference Hall Extn",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Refer your friend",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Spouse/Infant inclusion into GMC",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Insurance eards & claim submission process",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Designation Change Request Form",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Holidays List",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"GMC & Top-up Policy related FAQs",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Covid -19 - Home Isolation and Care",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Holiday list ",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Apply Leave",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"HR Wiki page ",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Train Pass Allowance form",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"COVID Vaccination update - April 2021",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Team trip/Team Lunch/dinner budget w.e.f 1.1.2023",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Rural offices location - DTA",
+"url":"https:www.zoho.com"
+},
+{
+"linkname":"Spouse/Child inclusion into GMC Policy",
+"url":"https:www.zoho.com"
+}
+]

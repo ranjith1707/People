@@ -1,0 +1,62 @@
+[
+{
+"fileName":"Gadget Policy_India",
+"fileType":"pdf"
+},
+{
+"fileName":"IT Acceptable Use Policy",
+"fileType":"pdf"
+},
+{
+"fileName":"HR Security Policy.pdf",
+"fileType":"pdf"
+},
+{
+"fileName":"Code of Ethics",
+"fileType":"pdf"
+},
+{
+"fileName":"Anti Sexual Harassment Policy",
+"fileType":"pdf"
+},
+{
+"fileName":"Leave Policy",
+"fileType":"pdf"
+},
+{
+"fileName":"Data Protection Awareness & Training Policy.pdf",
+"fileType":"pdf"
+},
+{
+"fileName":"Zoho Hub Office Travel Policy.pdf",
+"fileType":"pdf"
+},
+{
+"fileName":"Zoho Travel Policy.pdf",
+"fileType":"pdf"
+},
+{
+"fileName":"HR - Process Guide",
+"fileType":"word"
+},
+{
+"fileName":"COVID - 19 Recovery guide.pdf",
+"fileType":"pdf"
+},
+{
+"fileName":"Social Media Policy for Zoho",
+"fileType":"pdf"
+},
+{
+"fileName":"Visitors and Guest handling procedure.pdf",
+"fileType":"pdf"
+},
+{
+"fileName":"Zoho - Agreement Regarding Confidential.pdf",
+"fileType":"pdf"
+},
+{
+"fileName":"Zoho - US Travel Policy & US Policies on Harassment and Sexual Harassment.pdf",
+"fileType":"pdf"
+}
+]
