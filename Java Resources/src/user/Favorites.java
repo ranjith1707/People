@@ -12,10 +12,10 @@ public class Favorites {
 		new Favorites().getFavoritesList();
 	}
   public String getFavoritesList() {
-	  String workingDir = System.getProperty("user.dir");
+	
 	  
 	  String fList="";
-	  String path=workingDir+"/WebContent/responseFiles/favorites.txt";
+	  String path=./WebContent/responseFiles/favorites.txt";
 	  try {
 		 
 		  File file=new File(path);
