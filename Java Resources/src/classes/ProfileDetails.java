@@ -18,14 +18,14 @@ public class ProfileDetails extends HttpServlet {
     
     public ProfileDetails() {
         super();
-        // TODO Auto-generated constructor stub
+      
     }
 
 	
    
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		// TODO Auto-generated method stub
+		
 		String profileDetails="";
 		
 		InputStream st= getServletContext().getResourceAsStream("/responseFiles/userDetails.txt");
@@ -34,14 +34,14 @@ public class ProfileDetails extends HttpServlet {
 		while((line = in.readLine()) != null)
 		{
 			profileDetails+=line;
-			//System.out.println(line);
+			
 		}
 		response.getWriter().append(profileDetails);
 	}
 
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
