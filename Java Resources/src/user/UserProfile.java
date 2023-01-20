@@ -8,8 +8,8 @@ public class UserProfile {
 	}
 	
     public String getUserProfile() {
-    	 String workingDir = System.getProperty("user.dir");
-    	String path=workingDir+"/WebContent/responseFiles/userDetails.txt";
+    	
+    	String path="./WebContent/responseFiles/userDetails.txt";
     	String data="";
     	try {
     		File file=new File(path);	
