@@ -1,0 +1,183 @@
+<DOCTYPE html>
+
+<html>
+
+
+<head>
+
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script
+	src="https://localjs.zohostatic.com/people/24JAN2023_D_1224/people3/js/i18n/I18N_en.js"
+	type="text/javascript"></script> 
+<!-- <script type="text/javascript"
+	src="https://localjs.zohostatic.com/people/24JAN2023_D_1224/zp/js/leave.1.min.js"></script> -->
+<script type="text/javascript" src="../JsFiles/common.1.min.js"></script>
+<!-- <script type="text/javascript" src="../JsFiles/home.min.js"></script> -->
+
+<link type="text/css" rel="stylesheet" href="https://localcss.zohostatic.com/people/25JAN2023_R_1254/people3/css/zpfont.css">
+
+
+
+<title>Zoho People</title>
+
+<style>
+@font-face {
+	font-family: "prelato";
+	font-style: normal;
+	src: url("//static.zohocdn.com/webfonts/latoregular/font.eot?#iefix")
+		format("embedded-opentype"),
+		url("//static.zohocdn.com/webfonts/latoregular/font.svg#LatoRegular")
+		format("svg"),
+		url("//static.zohocdn.com/webfonts/latoregular/font.woff")
+		format("woff"),
+		url("//static.zohocdn.com/webfonts/latoregular/font.ttf")
+		format("truetype");
+}
+
+.zp_loading {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	height: 100% !important;
+	position: fixed !important;
+	width: 100% !important;
+	text-align: center !important;
+	background: #FAFBFB !important;
+	font-size: 16px !important;
+	/*z-index: 1000 !important;*/
+}
+
+.zp_loading img {
+	max-width: 90px !important;
+}
+
+.zp_loading p {
+	margin-top: 15px !important;
+	color: #666 !important;
+	font-family: prelato !important;
+}
+</style>
+
+</head>
+
+<body onhashchange="Layout.Page.getPage();" lang="en"
+	class="zp-v4  ZPDark TBlue">
+	<div class="zp_loading" id="zpinitloading">
+		<div class="">
+			<img
+				src="https://localjs.zohostatic.com/people/24JAN2023_D_1224/people3/images/l1.gif"
+				title="">
+			<p>Please wait while we work our charm...</p>
+		</div>
+	</div>
+	
+	<script>
+		
+		//CurrentUserData
+		
+		var csrfToken = '9fc14ce4768d479924a4a348a7075d061de8b8c4fc6c645679793b72abb8ad07457d4db8f379cb3af7a1176c9b764f7c02197892bdd5dea6ef1c1b883a14adf9'; // NO OUTPUTENCODING  // No I18N
+		
+		//CurrentOrgData
+		
+		var contextPath = 'ranjith'; //NO OUTPUTENCODING // NO I18N
+		
+		var newUIImageUrl = "https://localjs.zohostatic.com/people/24JAN2023_D_1224/people3/images/";//NO OUTPUTENCODING
+		
+		
+		var favicon = "https://localjs.zohostatic.com/people/24JAN2023_D_1224/people3/images//People.ico";//NO OUTPUTENCODING
+		//AdminPermData
+		 var isadmin = true; //NO OUTPUTENCODING
+		
+		
+		var urlvalue = 'https://people.localzoho.com:443/ranjith';//NO OUTPUTENCODING
+		//TabRelatedData
+		var isOldReports = false;
+		
+
+		var isGeoEnabled = false;
+		 
+		//UDS	
+		ZPLoader.PATH.CSS = 'http://localhost:8080/People/StyleSheets/'; // NO OUTPUTENCODING
+		//call init.....
+		if (!ZPeople.onBoardingStatus) {
+			ZPLoader.init();
+		}
+
+		if (!ZPeople.onBoardingStatus) {
+			ZPeople.initZP();
+		}
+		
+		
+		   Layout.URLS = {
+				
+		}   
+	
+	</script>
+
+	<div id="wrapper" class="ZPMband">
+		<nav class="zp_Nav">
+			<div class="zp_Nav-menu">
+				<div class="ZPHeadLft">
+					<a class="ZPLogo DB"></a>
+				</div>
+				<div class="ZPHeadRgt">
+					<div class="ZPSpanel" id="zpeople_search">
+						<div class="ZPTbox ZPSrbox" id=searchdiv>
+							<span class="IC-lens S8" id="zpeople_search_pico"></span>
+
+							<input type="search" class="ZPselect" id="zpeople_search_box"
+								placeholder="Search Employee" value="" name="Search">
+						</div>
+					</div>
+					<div class="ZPPimg dropdown">
+						<img data-toggle="dropdown" id="zpeople_userimage"
+							src="../images/user-thumbnail.png">
+					</div>
+					<ul class="nav top-nav ZPaddPopOver">
+						<li><a class="u-link tdAcc-link" name="sampledatasettingsdiv"
+							onclick="ZPeople.deleteSampleData()">Clear sample data</a></li>
+						<li><a class="u-link" id="subscriptionLink" target="_blank"
+							href="https://store.localzoho.com/html/store/index.html#subscription?serviceId=1201&customId=73490791">Subscription</a>
+						</li>
+						<li id="zpadv_icon"><a class="ZPtitle"
+							data-placement="bottom" title="Refer and Earn"> <span>
+									<i class="CR-refer-frnd"></i>
+							</span>
+						</a></li>
+						<li id="zp_quickadd_form_outer"><a data-toggle="dropdown">
+								<span data-toggle="tooltip" data-placement="bottom"
+								title="Quick Add"> <i class="IC-add-r"></i>
+							</span>
+						</a>
+							<div class="dropdown-menu ZPplusBox  ZPCmn-Arrow top rt gray"
+								id="zp_quickadd_form_container">
+								<div class="ZPTabVt">
+									<div class="lfttab" id="zp_quickadd_form_tabs"></div>
+									<div class="rhttabscrl">
+										<div class="tab-content PT20" id="zp_quickadd_forms"></div>
+									</div>
+								</div>
+							</div></li>
+						<li id="zp_askus"><a class="ZPtitle" title=""
+							data-placement="bottom" href="#hrcase/home" data-toggle="tooltip"
+							data-original-title="Ask a question"><span><i
+									class="IC-hrc"></i></span></a></li>
+						<li class="dropdown MR8" id="zp_feeds_notifications"><a
+							class="dropdown-toggle" id="zp_ntfn_dropdown" data-toggle="modal">
+								<span data-toggle="tooltip" data-placement="bottom"
+								title="Notifications" class="IC-bell-l S20"><sup
+									class="ZPncount DNI" id="zp_feeds_ntfn_count"></sup></span>
+						</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="ZPnavigation" id="zpeople_tabs">
+			<ul class="ZPnavlists" id="zp_maintabs"></ul>
+			<div class="ZPnavoption tab-content" id="zp_main_subtabs"></div>
+		</div>
+		</div>
+</body>
+</html>
